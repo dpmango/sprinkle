@@ -20,7 +20,7 @@
     min-height: 100vh
     display: flex
     flex-direction: column
-    padding: 20px 11%
+    padding: 20px 11.6%
     &--reveal
       min-height: auto
 
@@ -73,10 +73,11 @@
   flex-direction: column
   justify-content: center
   &__logo
+    margin-top: 25px
     .icon-logo-white
       display: none
   &__title
-    margin-top: 50px
+    margin-top: 53px
     font-size: 36px
     line-height: 1.19
     font-weight: 500
@@ -89,7 +90,7 @@
     // transition: opacity .1s ease
     .icon
       display: inline-block
-      margin: 0 4px
+      margin: 0 2px
       vertical-align: middle
 
   &__cta
@@ -179,7 +180,7 @@
 
   &__title
     font-size: 20px
-    line-height: 2
+    line-height: 1.7
     font-weight: 500
     letter-spacing: -.17px
   &__description
@@ -211,7 +212,7 @@
 // FOOTER
 .footer
   position: fixed
-  bottom: 25px
+  bottom: 27px
   left: 0
   right: 0
   display: flex
@@ -292,6 +293,7 @@
     justify-content: flex-start
     text-align: center
     &__logo
+      margin-top: 0
       .icon-logo-black
         display: none
       .icon-logo-white
@@ -336,26 +338,33 @@
 
       a
         display: inline-block
-        margin-bottom: 10px
+        margin-bottom: 15px
 
 +r($mobile)
+  .mobile-inline
+    display: none
+
   .intro
     &__title
       font-size: 20px
     &__description
       font-size: 18px
       .icon
-        transform: scale(.7)
-        margin: 0
+        transform: scale(.67)
+        margin: 0 -2px
+    &__cta
+      margin-top: 5px
+      margin-bottom: 35px
 
 
   .benefits
     flex-direction: column
     text-align: center
-    padding-bottom: 30px
+    padding-top: 13px
+    padding-bottom: 18px
     &__card
-      max-width: 240px
-      margin: 15px auto
+      max-width: 270px
+      margin: 15px auto 23px auto
       &:nth-child(odd)
         padding-left: 20px
       &:nth-child(even)
@@ -365,3 +374,4 @@
       font-size: 20px
     &__description
       font-size: 16px
+      line-height: 1.65

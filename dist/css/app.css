@@ -678,7 +678,7 @@ body, html {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 20px 11%;
+  padding: 20px 11.6%;
 }
 
 .b-section--reveal {
@@ -809,12 +809,16 @@ body, html {
           justify-content: center;
 }
 
+.intro__logo {
+  margin-top: 25px;
+}
+
 .intro__logo .icon-logo-white {
   display: none;
 }
 
 .intro__title {
-  margin-top: 50px;
+  margin-top: 53px;
   font-size: 36px;
   line-height: 1.19;
   font-weight: 500;
@@ -829,7 +833,7 @@ body, html {
 
 .intro__description .icon {
   display: inline-block;
-  margin: 0 4px;
+  margin: 0 2px;
   vertical-align: middle;
 }
 
@@ -989,7 +993,7 @@ body, html {
 
 .merchants__title {
   font-size: 20px;
-  line-height: 2;
+  line-height: 1.7;
   font-weight: 500;
   letter-spacing: -.17px;
 }
@@ -1041,7 +1045,7 @@ body, html {
 
 .footer {
   position: fixed;
-  bottom: 25px;
+  bottom: 27px;
   left: 0;
   right: 0;
   display: -webkit-box;
@@ -1158,6 +1162,9 @@ body, html {
             justify-content: flex-start;
     text-align: center;
   }
+  .intro__logo {
+    margin-top: 0;
+  }
   .intro__logo .icon-logo-black {
     display: none;
   }
@@ -1224,11 +1231,14 @@ body, html {
   }
   .footer__col a {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 
 @media only screen and (max-width: 568px) {
+  .mobile-inline {
+    display: none;
+  }
   .intro__title {
     font-size: 20px;
   }
@@ -1236,10 +1246,14 @@ body, html {
     font-size: 18px;
   }
   .intro__description .icon {
-    -webkit-transform: scale(0.7);
-        -ms-transform: scale(0.7);
-            transform: scale(0.7);
-    margin: 0;
+    -webkit-transform: scale(0.67);
+        -ms-transform: scale(0.67);
+            transform: scale(0.67);
+    margin: 0 -2px;
+  }
+  .intro__cta {
+    margin-top: 5px;
+    margin-bottom: 35px;
   }
   .benefits {
     -webkit-box-orient: vertical;
@@ -1248,11 +1262,12 @@ body, html {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    padding-bottom: 30px;
+    padding-top: 13px;
+    padding-bottom: 18px;
   }
   .benefits__card {
-    max-width: 240px;
-    margin: 15px auto;
+    max-width: 270px;
+    margin: 15px auto 23px auto;
   }
   .benefits__card:nth-child(odd) {
     padding-left: 20px;
@@ -1265,6 +1280,7 @@ body, html {
   }
   .benefits__description {
     font-size: 16px;
+    line-height: 1.65;
   }
 }
 
