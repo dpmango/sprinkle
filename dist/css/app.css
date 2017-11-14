@@ -506,21 +506,21 @@ body, html {
   background-image: url("../img/sprite.png");
   background-position: 0px -80px;
   background-repeat: no-repeat;
-  width: 213px;
-  height: 64px;
+  width: 210px;
+  height: 63px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-app-store {
-    -webkit-background-size: 300px 247px;
-            background-size: 300px 247px;
+    -webkit-background-size: 300px 246px;
+            background-size: 300px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-card {
   background-image: url("../img/sprite.png");
-  background-position: -223px -80px;
+  background-position: -220px -80px;
   background-repeat: no-repeat;
   width: 36px;
   height: 36px;
@@ -528,15 +528,15 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-card {
-    -webkit-background-size: 300px 247px;
-            background-size: 300px 247px;
+    -webkit-background-size: 300px 246px;
+            background-size: 300px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-logo-black {
   background-image: url("../img/sprite.png");
-  background-position: 0px -154px;
+  background-position: 0px -153px;
   background-repeat: no-repeat;
   width: 203px;
   height: 48px;
@@ -544,15 +544,15 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-logo-black {
-    -webkit-background-size: 300px 247px;
-            background-size: 300px 247px;
+    -webkit-background-size: 300px 246px;
+            background-size: 300px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-logo-white {
   background-image: url("../img/sprite.png");
-  background-position: 0px -212px;
+  background-position: 0px -211px;
   background-repeat: no-repeat;
   width: 149px;
   height: 35px;
@@ -560,8 +560,8 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-logo-white {
-    -webkit-background-size: 300px 247px;
-            background-size: 300px 247px;
+    -webkit-background-size: 300px 246px;
+            background-size: 300px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
@@ -576,15 +576,15 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-logo {
-    -webkit-background-size: 300px 247px;
-            background-size: 300px 247px;
+    -webkit-background-size: 300px 246px;
+            background-size: 300px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-money {
   background-image: url("../img/sprite.png");
-  background-position: -213px -154px;
+  background-position: -213px -153px;
   background-repeat: no-repeat;
   width: 36px;
   height: 36px;
@@ -592,15 +592,15 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-money {
-    -webkit-background-size: 300px 247px;
-            background-size: 300px 247px;
+    -webkit-background-size: 300px 246px;
+            background-size: 300px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-ok {
   background-image: url("../img/sprite.png");
-  background-position: -269px -80px;
+  background-position: -266px -80px;
   background-repeat: no-repeat;
   width: 28px;
   height: 36px;
@@ -608,8 +608,8 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-ok {
-    -webkit-background-size: 300px 247px;
-            background-size: 300px 247px;
+    -webkit-background-size: 300px 246px;
+            background-size: 300px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
@@ -766,26 +766,16 @@ body, html {
           flex: 0 1 100%;
   max-width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .b-mobile-image {
   display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: -40vh;
+  margin-top: -48vh;
   padding: 0px 40px 20px 40px;
 }
 
@@ -852,10 +842,13 @@ body, html {
   margin-top: 20px;
   font-size: 0;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 35px;
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
 }
 
 .intro__store a:hover, .intro__store a:focus {
@@ -887,10 +880,10 @@ body, html {
           border-radius: 10px;
   color: white;
   margin-top: 20px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  padding: 8px 35px;
-  height: 64px;
+  padding: 8px 32px;
+  height: 63px;
 }
 
 .intro__btn a:focus, .intro__btn a:active {
@@ -1133,21 +1126,31 @@ body, html {
   .b-section {
     min-height: 1px;
     padding: 0;
-  }
-  .b-mobile-image {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .b-fixed__image {
-    height: auto;
-  }
-  .b-fixed__image img {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
+    display: block;
+  }
+  .b-mobile-image {
+    display: block;
+  }
+  .b-fixed__image {
+    display: block;
+    height: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .b-fixed__image img {
+    display: inline-block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
     height: auto;
   }
   .intro {
@@ -1155,7 +1158,7 @@ body, html {
     padding: 50px 20px;
     color: white;
     min-height: 670px;
-    padding-bottom: 40vh;
+    padding-bottom: 48vh;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
@@ -1185,9 +1188,9 @@ body, html {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-transform: scale(0.77);
-        -ms-transform: scale(0.77);
-            transform: scale(0.77);
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
   }
   .intro__store a {
     margin-right: 0;
@@ -1240,7 +1243,8 @@ body, html {
     display: none;
   }
   .intro__title {
-    font-size: 20px;
+    font-size: 22px;
+    letter-spacing: -.18px;
   }
   .intro__description {
     font-size: 18px;
@@ -1256,6 +1260,7 @@ body, html {
     margin-bottom: 35px;
   }
   .benefits {
+    display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;

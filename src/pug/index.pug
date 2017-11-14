@@ -23,7 +23,10 @@ block content
               a(href="#" target="_blank")
                 span Learn More
         
-        .b-mobile-image(data-teleport-target="mobile-phone")
+        .b-mobile-image
+          .b-fixed__image
+            img(src='img/phone.png' srcset='img/phone@2x.png 2x')
+        
       
       .b-section.b-section--reveal
         .benefits
@@ -54,7 +57,7 @@ block content
     // right section          
     .b-right
       .b-fixed
-        .b-fixed__wrapper(js-teleport data-teleport-condition="<768" data-teleport-to="mobile-phone")
+        .b-fixed__wrapper
           .b-fixed__image
             img(src='img/phone.png' srcset='img/phone@2x.png 2x')
         

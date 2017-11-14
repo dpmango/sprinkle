@@ -56,14 +56,13 @@
         flex: 0 1 100%
         max-width: 100%
         height: 100%
-        object-fit: contain
+        // object-fit: contain
 
   &-mobile-image
     display: none
-    flex-direction: column
-    justify-content: center
+    text-align: center
     align-items: center
-    margin-top: -40vh
+    margin-top: -48vh
     padding: 0px 40px 20px 40px
 
 // INTRO :: START
@@ -101,8 +100,9 @@
     margin-top: 20px
     font-size: 0
     display: inline-block
-    margin-right: 30px
+    margin-right: 35px
     transition: all $transitionSpeed $ease
+    transform-origin: top left
     &:hover
       opacity: .8
   &__btn a
@@ -118,10 +118,10 @@
     border-radius: 10px
     color: white
     margin-top: 20px
-    font-size: 22px
+    font-size: 20px
     font-weight: 500
-    padding: 8px 35px
-    height: 64px
+    padding: 8px 32px
+    height: 63px
     &:focus, &:active
       outline: none
     &:hover
@@ -273,15 +273,23 @@
     &-section
       min-height: 1px
       padding: 0
+      flex: 0 0 auto
+      display: block
 
     &-mobile-image
-      display: flex
+      display: block
 
     &-fixed__image
-      height: auto
+      display: block
+      height: 100%
+      flex: 0 0 auto
+      margin-left: auto
+      margin-right: auto
       img
-        flex: 0 0 auto
+        display: inline-block
+        flex: 0 0 100%
         height: auto
+        // object-fit: none
 
 
   .intro
@@ -289,7 +297,7 @@
     padding: 50px 20px
     color: white
     min-height: 670px
-    padding-bottom: 40vh
+    padding-bottom: 48vh
     justify-content: flex-start
     text-align: center
     &__logo
@@ -307,7 +315,7 @@
       margin-top: 25px
       margin-bottom: 40px
       justify-content: center
-      transform: scale(.77)
+      transform: scale(.8)
     &__store a
       margin-right: 0
 
@@ -346,7 +354,8 @@
 
   .intro
     &__title
-      font-size: 20px
+      font-size: 22px
+      letter-spacing: -.18px
     &__description
       font-size: 18px
       .icon
@@ -358,6 +367,7 @@
 
 
   .benefits
+    display: block
     flex-direction: column
     text-align: center
     padding-top: 13px
