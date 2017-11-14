@@ -1,14 +1,69 @@
 ---
-title: Homepage title
-bodyClass: homepage
+title: Sprinkle 
 ---
 extends shared/_layout
 block content
-  i.icon.icon-logo
+  
+  .grid
+    // left section
+    .b-left
+      .b-section
+        .intro
+          .intro__logo
+            i.icon.icon-logo-black
+          .intro__title Earn rewards as you shop
+          .intro__description Link your <i class="icon icon-card"></i> , spend <i class="icon icon-money"></i> = Rewards <i class="icon icon-ok"></i> <br><br> Simple.
+          
+          .intro__cta
+            a(href="#" target="_blank").intro__store
+              i.icon.icon-app-store
+            a(href="#" target="_blank").intro__btn
+              span Learn More
+      
+      .b-section
+        .benefits
+          .benefits__card
+            .benefits__title Easy to setup
+            .benefits__description Simply link your card to your account and begin earning rewards in no time
+          .benefits__card
+            .benefits__title Seamless rewards
+            .benefits__description Earn rewards automatically while you shop. No more stamp cards
+            
+          .benefits__card
+            .benefits__title Convinience
+            .benefits__description No bulging wallets – simply opt-in to merchant reward schemes from the app
+            
+          .benefits__card
+            .benefits__title Secure
+            .benefits__description Your transaction data is encrypted + we’ll never share your information
+            
+          .benefits__card
+            .benefits__title Get rewarded
+            .benefits__description Earn rewards and receive exclusive offers from your favourite merchants
+          .benefits__card
+            .benefits__title Frictionless
+            .benefits__description Never again will you have to scan or stamp anything in-store
+            
+          
+              
+    // right section          
+    .b-right
+      .b-fixed
+        .b-fixed__wrapper
+          .b-fixed__image
+            img(src='img/phone.png' srcset='img/phone@2x.png 2x')
+        
+  
+  // MERCHANTS
+  .merchants
+    a(href='#').merchants__cta For Merchants
     
-  // iteration example
-  .socials
-    - var socials = ['email']
-      each social in socials
-        a(class="social-share" href="#" role="button")
-          +icon('ico-'+social)
+  // FOOTER
+  .footer
+    .footer__col
+      a(href="mailto:contact@getsprinkle.co.uk") contact@getsprinkle.co.uk
+      
+    .footer__col
+      span © 2017 Sprinkle Technologies Limited
+    
+    

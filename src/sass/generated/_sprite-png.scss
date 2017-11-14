@@ -1,11 +1,65 @@
 $sprite: (
+	app-store: (
+		offset-x: 0px,
+		offset-y: -80px,
+		width: 213px,
+		height: 64px,
+		total-width: 300px,
+		total-height: 247px,
+		image: '../img/sprite.png'
+	),
+	card: (
+		offset-x: -223px,
+		offset-y: -80px,
+		width: 36px,
+		height: 36px,
+		total-width: 300px,
+		total-height: 247px,
+		image: '../img/sprite.png'
+	),
+	logo-black: (
+		offset-x: 0px,
+		offset-y: -154px,
+		width: 203px,
+		height: 48px,
+		total-width: 300px,
+		total-height: 247px,
+		image: '../img/sprite.png'
+	),
+	logo-white: (
+		offset-x: 0px,
+		offset-y: -212px,
+		width: 149px,
+		height: 35px,
+		total-width: 300px,
+		total-height: 247px,
+		image: '../img/sprite.png'
+	),
 	logo: (
 		offset-x: 0px,
 		offset-y: 0px,
 		width: 300px,
 		height: 70px,
 		total-width: 300px,
-		total-height: 70px,
+		total-height: 247px,
+		image: '../img/sprite.png'
+	),
+	money: (
+		offset-x: -213px,
+		offset-y: -154px,
+		width: 36px,
+		height: 36px,
+		total-width: 300px,
+		total-height: 247px,
+		image: '../img/sprite.png'
+	),
+	ok: (
+		offset-x: -269px,
+		offset-y: -80px,
+		width: 28px,
+		height: 36px,
+		total-width: 300px,
+		total-height: 247px,
 		image: '../img/sprite.png'
 	),
 );
@@ -64,6 +118,24 @@ $sprite: (
 
 
 
+	.icon-app-store {
+		@include sprite(app-store)
+	}
+	.icon-card {
+		@include sprite(card)
+	}
+	.icon-logo-black {
+		@include sprite(logo-black)
+	}
+	.icon-logo-white {
+		@include sprite(logo-white)
+	}
 	.icon-logo {
 		@include sprite(logo)
+	}
+	.icon-money {
+		@include sprite(money)
+	}
+	.icon-ok {
+		@include sprite(ok)
 	}
