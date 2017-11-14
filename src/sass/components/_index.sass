@@ -39,7 +39,7 @@
       flex-direction: column
       align-items: center
       justify-content: center
-      padding: 50px 20px
+      padding: 50px 40px
     &__image
       height: calc(100vh - 100px)
       flex: 0 1 auto
@@ -55,6 +55,14 @@
         height: 100%
         object-fit: contain
 
+  &-mobile-image
+    display: none
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-top: -40vh
+    padding: 20px 40px
+
 // INTRO :: START
 .intro
   flex: 1 1 auto
@@ -62,7 +70,8 @@
   flex-direction: column
   justify-content: center
   &__logo
-
+    .icon-logo-white
+      display: none
   &__title
     margin-top: 50px
     font-size: 36px
@@ -81,8 +90,9 @@
   &__cta
     display: flex
     flex-wrap: wrap
-    margin-top: 17vh
+    margin-top: 15vh
   &__store
+    margin-top: 20px
     font-size: 0
     display: inline-block
     margin-right: 30px
@@ -102,10 +112,11 @@
     border: 2px solid $colorSea
     border-radius: 10px
     color: white
+    margin-top: 20px
     font-size: 22px
     font-weight: 500
     padding: 8px 35px
-    max-height: 64px
+    height: 64px
     &:focus, &:active
       outline: none
     &:hover
@@ -145,6 +156,45 @@
     font-size: 14px
     font-weight: 700
     font-family: 'Open Sans', sans-serif
+  &__mobile
+    display: none
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: white
+    text-align: center
+    padding: 15px 20px
+
+  &__title
+    font-size: 20px
+    line-height: 2
+    font-weight: 500
+    letter-spacing: -.17px
+  &__description
+    font-size: 16px
+    font-weight: 300
+    line-height: 1.6
+  &__btn
+    display: inline-block
+    position: relative
+    text-align: center
+    transition: all $transitionSpeed ease-in-out
+    display: flex
+    align-items: center
+    justify-content: center
+    background: $colorSea
+    border: 2px solid $colorSea
+    border-radius: 40px
+    color: white
+    margin-top: 15px
+    font-size: 14px
+    font-weight: 500
+    padding: 7px 25px
+    &:focus, &:active
+      outline: none
+    &:hover
+      background-color: transparent
+      color: white
 
 // FOOTER
 .footer
@@ -168,3 +218,116 @@
       transition: all $transitionSpeed $ease
       &:hover
         color: $colorViolet
+
++r($wide)
+  .b
+    &-section
+      padding-left: 20px
+      padding-right: 20px
+
+  .intro
+    &__title
+      font-size: 32px
+    &__description
+      font-size: 22px
+      .icon
+        transform: scale(.9)
+        margin: 0 2px
+
++r($desktop)
+  .intro
+    &__title
+      font-size: 30px
+
+    &__description
+      font-size: 20px
+      .icon
+        transform: scale(.8)
+        margin: 0
+
++r($tablet)
+  .grid
+    display: block
+
+  .b
+    &-left
+      width: 100%
+      padding: 0
+
+    &-right
+      display: none
+
+    &-section
+      min-height: 1px
+      padding: 0
+
+    &-mobile-image
+      display: flex
+
+  .intro
+    background: $colorViolet
+    padding: 50px 20px
+    color: white
+    min-height: 100vh
+    padding-bottom: 40vh
+    justify-content: flex-start
+    text-align: center
+    &__logo
+      .icon-logo-black
+        display: none
+      .icon-logo-white
+        display: inline-block
+    &__cta
+      margin-top: 25px
+      margin-bottom: 40px
+      justify-content: center
+    &__store
+      margin-right: 0
+
+    &__btn
+      display: none
+
+  .benefits
+    padding: 50px 20px
+  .merchants
+    position: static
+    background: $colorViolet
+    &__mobile
+      display: flex
+    &__cta
+      display: none
+
+
+  .footer
+    position: static
+    flex-direction: column
+    padding: 20px 20px 15px 20px
+    &__col
+      &:nth-child(2)
+        color: #9B9B9B
+
+      a
+        display: inline-block
+        margin-bottom: 10px
+
++r($mobile)
+  .intro
+    &__title
+      font-size: 20px
+    &__description
+      font-size: 18px
+      .icon
+        transform: scale(.7)
+        margin: 0
+
+
+  .benefits
+    flex-direction: column
+    text-align: center
+    &__card
+      max-width: 240px
+      margin: 15px auto
+    &__title
+      font-size: 20px
+    &__description
+      font-size: 16px
