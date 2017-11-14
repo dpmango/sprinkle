@@ -16,14 +16,16 @@ block content
           .intro__description Link your <i class="icon icon-card"></i> , spend <i class="icon icon-money"></i> = Rewards <i class="icon icon-ok"></i> <br><br> Simple.
           
           .intro__cta
-            a(href="#" target="_blank").intro__store
-              i.icon.icon-app-store
-            a(href="#" target="_blank").intro__btn
-              span Learn More
+            .intro__store
+              a(href="#" target="_blank")
+                i.icon.icon-app-store
+            .intro__btn
+              a(href="#" target="_blank")
+                span Learn More
         
         .b-mobile-image(data-teleport-target="mobile-phone")
       
-      .b-section
+      .b-section.b-section--reveal
         .benefits
           .benefits__card
             .benefits__title Easy to setup
