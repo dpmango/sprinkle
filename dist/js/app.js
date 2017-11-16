@@ -45,59 +45,11 @@ $(document).ready(function(){
 
   // svg support for laggy browsers
   svg4everybody();
-  //
-  // // Viewport units buggyfill
-  // window.viewportUnitsBuggyfill.init({
-  //   force: true,
-  //   hacks: window.viewportUnitsBuggyfillHacks,
-  //   refreshDebounceWait: 250,
-  //   appendToBody: true
-  // });
-
 
  	// Prevent # behavior
 	$('[href="#"]').click(function(e) {
 		e.preventDefault();
 	});
-
-  // TELEPORT PLUGIN
-  // var curWidth = _window.width();
-  // var eligibleScroll
-  // $('[js-teleport]').each(function (i, val) {
-  //   var self = $(val)
-  //   var objHtml = $(val).html();
-  //   var target = $('[data-teleport-target=' + $(val).data('teleport-to') + ']');
-  //   var conditionMedia = $(val).data('teleport-condition').substring(1);
-  //   var conditionPosition = $(val).data('teleport-condition').substring(0, 1);
-  //
-  //   if (target && objHtml && conditionPosition) {
-  //     // _window.on('resize', throttle(function () {
-  //     //   teleport()
-  //     // }, 10));
-  //     _window.on('resize', function () {
-  //       teleport()
-  //     });
-  //
-  //     function teleport() {
-  //       var condition;
-  //
-  //       if (conditionPosition === "<") {
-  //         condition = _window.width() < conditionMedia;
-  //       } else if (conditionPosition === ">") {
-  //         condition = _window.width() > conditionMedia;
-  //       }
-  //
-  //       if (condition) {
-  //         target.html(objHtml)
-  //         self.html('')
-  //       } else {
-  //         self.html(objHtml)
-  //         target.html("")
-  //       }
-  //     }
-  //     teleport();
-  //   }
-  // });
 
   // SCROLL FUNC
   function revealScroll(){

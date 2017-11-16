@@ -512,15 +512,15 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-app-store {
-    -webkit-background-size: 300px 246px;
-            background-size: 300px 246px;
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-card {
   background-image: url("../img/sprite.png");
-  background-position: -220px -80px;
+  background-position: -310px -66px;
   background-repeat: no-repeat;
   width: 36px;
   height: 36px;
@@ -528,8 +528,8 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-card {
-    -webkit-background-size: 300px 246px;
-            background-size: 300px 246px;
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
@@ -544,8 +544,8 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-logo-black {
-    -webkit-background-size: 300px 246px;
-            background-size: 300px 246px;
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
@@ -560,8 +560,8 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-logo-white {
-    -webkit-background-size: 300px 246px;
-            background-size: 300px 246px;
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
@@ -576,15 +576,15 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-logo {
-    -webkit-background-size: 300px 246px;
-            background-size: 300px 246px;
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-money {
   background-image: url("../img/sprite.png");
-  background-position: -213px -153px;
+  background-position: -356px -66px;
   background-repeat: no-repeat;
   width: 36px;
   height: 36px;
@@ -592,15 +592,15 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-money {
-    -webkit-background-size: 300px 246px;
-            background-size: 300px 246px;
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
 
 .icon-ok {
   background-image: url("../img/sprite.png");
-  background-position: -266px -80px;
+  background-position: -310px -112px;
   background-repeat: no-repeat;
   width: 28px;
   height: 36px;
@@ -608,8 +608,24 @@ body, html {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-ok {
-    -webkit-background-size: 300px 246px;
-            background-size: 300px 246px;
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
+    background-image: url("../img/sprite@2x.png");
+  }
+}
+
+.icon-slick-fold-arrow-next {
+  background-image: url("../img/sprite.png");
+  background-position: -310px 0px;
+  background-repeat: no-repeat;
+  width: 97px;
+  height: 56px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .icon-slick-fold-arrow-next {
+    -webkit-background-size: 407px 246px;
+            background-size: 407px 246px;
     background-image: url("../img/sprite@2x.png");
   }
 }
@@ -761,11 +777,11 @@ body, html {
 .b-fixed__image img {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 100%;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
   max-width: 100%;
-  height: 100%;
+  max-height: 100%;
 }
 
 .b-mobile-image {

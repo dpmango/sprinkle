@@ -4,16 +4,16 @@ $sprite: (
 		offset-y: -80px,
 		width: 210px,
 		height: 63px,
-		total-width: 300px,
+		total-width: 407px,
 		total-height: 246px,
 		image: '../img/sprite.png'
 	),
 	card: (
-		offset-x: -220px,
-		offset-y: -80px,
+		offset-x: -310px,
+		offset-y: -66px,
 		width: 36px,
 		height: 36px,
-		total-width: 300px,
+		total-width: 407px,
 		total-height: 246px,
 		image: '../img/sprite.png'
 	),
@@ -22,7 +22,7 @@ $sprite: (
 		offset-y: -153px,
 		width: 203px,
 		height: 48px,
-		total-width: 300px,
+		total-width: 407px,
 		total-height: 246px,
 		image: '../img/sprite.png'
 	),
@@ -31,7 +31,7 @@ $sprite: (
 		offset-y: -211px,
 		width: 149px,
 		height: 35px,
-		total-width: 300px,
+		total-width: 407px,
 		total-height: 246px,
 		image: '../img/sprite.png'
 	),
@@ -40,25 +40,34 @@ $sprite: (
 		offset-y: 0px,
 		width: 300px,
 		height: 70px,
-		total-width: 300px,
+		total-width: 407px,
 		total-height: 246px,
 		image: '../img/sprite.png'
 	),
 	money: (
-		offset-x: -213px,
-		offset-y: -153px,
+		offset-x: -356px,
+		offset-y: -66px,
 		width: 36px,
 		height: 36px,
-		total-width: 300px,
+		total-width: 407px,
 		total-height: 246px,
 		image: '../img/sprite.png'
 	),
 	ok: (
-		offset-x: -266px,
-		offset-y: -80px,
+		offset-x: -310px,
+		offset-y: -112px,
 		width: 28px,
 		height: 36px,
-		total-width: 300px,
+		total-width: 407px,
+		total-height: 246px,
+		image: '../img/sprite.png'
+	),
+	slick-fold-arrow-next: (
+		offset-x: -310px,
+		offset-y: 0px,
+		width: 97px,
+		height: 56px,
+		total-width: 407px,
 		total-height: 246px,
 		image: '../img/sprite.png'
 	),
@@ -138,4 +147,7 @@ $sprite: (
 	}
 	.icon-ok {
 		@include sprite(ok)
+	}
+	.icon-slick-fold-arrow-next {
+		@include sprite(slick-fold-arrow-next)
 	}
