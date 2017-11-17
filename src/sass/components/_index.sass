@@ -37,26 +37,34 @@
     color: white
     &__wrapper
       position: relative
-      flex: 1 1 auto
+      // enable zoom
+      // flex: 1 1 auto
+      flex: 1 0 auto
       display: flex
       flex-direction: column
       align-items: center
       justify-content: center
       padding: 50px 40px
     &__image
-      height: calc(100vh - 100px)
+      position: relative
       flex: 0 1 auto
       display: flex
       flex-direction: column
       align-items: center
       justify-content: center
       max-width: 393px
-      img, video
+      img
         display: block
         flex: 0 1 auto
         max-width: 100%
         max-height: 100%
         // object-fit: contain
+      video
+        position: absolute
+        top: 9.4%
+        left: 6.7%
+        right: 6.7%
+        max-width: 86.7%
 
   &-mobile-image
     display: none
@@ -64,6 +72,13 @@
     align-items: center
     margin-top: -48vh
     padding: 0px 40px 20px 40px
+
+.is-ie
+  .b-fixed__image video
+    top: 9.2%
+    left: 6.3%
+    right: 6.3%
+    max-width: 87.5%
 
 // INTRO :: START
 .intro
@@ -141,18 +156,21 @@
   &__card
     flex: 0 1 50%
     margin: 40px 0
-    padding: 0 20px
     &:nth-child(odd)
-      padding-left: 0
+      .benefits__title, .benefits__description
+        padding-left: 0
     &:nth-child(even)
-      padding-right: 0
+      .benefits__title, .benefits__description
+        padding-right: 0
   &__title
     font-size: 24px
     font-weight: 500
+    padding: 0 20px
   &__description
     margin-top: 8px
     font-size: 18px
     line-height: 1.44
+    padding: 0 20px
   +rh(800)
     margin-bottom: -30vh
 
@@ -257,6 +275,11 @@
       .icon
         transform: scale(.8)
         margin: 0
+  .benefits
+    &__title
+      font-size: 22px
+    &__description
+      font-size: 16px
 
 +r($tablet)
   .grid
@@ -376,10 +399,11 @@
       max-width: 270px
       margin: 15px auto 23px auto
       &:nth-child(odd)
-        padding-left: 20px
+        .benefits__title, .benefits__description
+          padding-left: 20px
       &:nth-child(even)
-        padding-right: 20px
-
+        .benefits__title, .benefits__description
+          padding-right: 20px
     &__title
       font-size: 20px
     &__description
