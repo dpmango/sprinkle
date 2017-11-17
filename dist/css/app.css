@@ -774,7 +774,7 @@ body, html {
   max-width: 393px;
 }
 
-.b-fixed__image img {
+.b-fixed__image img, .b-fixed__image video {
   display: block;
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 auto;

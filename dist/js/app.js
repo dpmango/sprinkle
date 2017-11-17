@@ -117,6 +117,8 @@ $(document).ready(function(){
 
   revealScroll();
 
+  // document.getElementById('autoplay').play();
+
   $('.intro__btn').on('click', function(e){
     $('body, html').animate({
         scrollTop: _document.height() - _window.height() }, 1000);
