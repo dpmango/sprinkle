@@ -771,6 +771,9 @@ body, html {
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 393px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 .b-fixed__image img {
@@ -807,6 +810,30 @@ body, html {
   left: 6.3%;
   right: 6.3%;
   max-width: 87.5%;
+}
+
+@media only screen and (max-height: 900px) {
+  .b-fixed__image {
+    max-width: 340px;
+  }
+}
+
+@media only screen and (max-height: 780px) {
+  .b-fixed__image {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .b-fixed__image {
+    max-width: 280px;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  .b-fixed__image {
+    max-width: 240px;
+  }
 }
 
 .intro {
