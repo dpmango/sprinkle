@@ -630,6 +630,12 @@ body, html {
   }
 }
 
+.ico-app-store {
+  width: 2.99em;
+  height: 1em;
+  fill: #a6a6a6;
+}
+
 .ico-email {
   width: 1.4em;
   height: 1em;
@@ -893,6 +899,10 @@ body, html {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   margin-top: 15vh;
+}
+
+.intro__store svg {
+  height: 63px;
 }
 
 .intro__store a {
