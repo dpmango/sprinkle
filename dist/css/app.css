@@ -901,7 +901,12 @@ body, html {
   margin-top: 15vh;
 }
 
+.intro__store {
+  font-size: 0;
+}
+
 .intro__store svg {
+  width: 188px;
   height: 63px;
 }
 
@@ -1021,14 +1026,14 @@ body, html {
 .merchants {
   position: fixed;
   z-index: 10;
-  right: 40px;
+  right: -webkit-calc(50% + 25px);
+  right: calc(50% + 25px);
   top: 25px;
-  color: white;
 }
 
 .merchants__cta {
   font-size: 14px;
-  font-weight: 700;
+  margin-right: 25px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -1133,7 +1138,7 @@ body, html {
 }
 
 .footer__col:nth-child(2) {
-  color: white;
+  display: none;
 }
 
 .footer__col a {
@@ -1297,14 +1302,18 @@ body, html {
   .footer {
     position: static;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     padding: 20px 20px 15px 20px;
   }
-  .footer__col:nth-child(2) {
+  .footer__col {
     color: #9B9B9B;
+  }
+  .footer__col:nth-child(2) {
+    display: block;
+    color: #4A4A4A;
   }
   .footer__col a {
     display: inline-block;

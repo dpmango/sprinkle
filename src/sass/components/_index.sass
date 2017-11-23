@@ -136,7 +136,9 @@
     flex-wrap: wrap
     margin-top: 15vh
   &__store
+    font-size: 0
     svg
+      width: 188px
       height: 63px
   &__store a
     margin-top: 20px
@@ -207,12 +209,13 @@
 .merchants
   position: fixed
   z-index: 10
-  right: 40px
+  right: calc(50% + 25px)
   top: 25px
-  color: white
+  // color: white
   &__cta
     font-size: 14px
-    font-weight: 700
+    margin-right: 25px
+    // font-weight: 700
     font-family: 'Open Sans', sans-serif
   &__mobile
     display: none
@@ -271,7 +274,7 @@
     text-align: center
     font-size: 13px
     &:nth-child(2)
-      color: white
+      display: none
     a
       transition: all $transitionSpeed $ease
       &:hover
@@ -388,11 +391,13 @@
 
   .footer
     position: static
-    flex-direction: column
+    flex-direction: column-reverse
     padding: 20px 20px 15px 20px
     &__col
+      color: #9B9B9B
       &:nth-child(2)
-        color: #9B9B9B
+        display: block
+        color: #4A4A4A
 
       a
         display: inline-block
